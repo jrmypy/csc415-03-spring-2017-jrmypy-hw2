@@ -1,1 +1,0 @@
-/usr/bin/cc  -g   CMakeFiles/hw2.dir/src/main.c.o CMakeFiles/hw2.dir/src/shell.c.o CMakeFiles/hw2.dir/src/Tests/test.c.o  -o hw2 -rdynamic 
