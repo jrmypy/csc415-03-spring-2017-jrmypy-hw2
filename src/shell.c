@@ -130,12 +130,11 @@ int shell(int argc, char *argv[]) {
         m_child = fork();
 
         if(m_child == 0) {
-            if(execvp(args[0], argv) == -1) {
-                perror("error");
-            }
-            exit(EXIT_FAILURE);
+            execvp(args[0], args);
         } else if(m_child < 0) {
             perror("error");
+        } else {
+          wait(&m_status);
         }
 
     } else {
