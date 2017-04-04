@@ -59,7 +59,7 @@ int setup(char inputBuffer[], char *args[]) {
   do {
     printf("shell>");
     fflush(stdout);  //Flush 'shell>' out into the command line
-    m_inputLength = read(STDIN_FILENO, inputBuffer, MAX_CHARACTERS_LINE);  //Read from command line into our inputBuffer
+    m_inputLength = read_custom(STDIN_FILENO, inputBuffer, MAX_CHARACTERS_LINE);  //Read from command line into our inputBuffer
   }
   while (inputBuffer[0] == '\n');  //ignore newline characters
 
