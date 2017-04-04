@@ -141,7 +141,5 @@ int shell(int argc, char *argv[]) {
       printf("Invalid command!\n");
     }
   }
-
-
   return 42;
 }
