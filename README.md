@@ -1,7 +1,7 @@
 #HW2 Shell Program
 #### PaoYang Tan
 
-TODO - Add a badge from travis CI here
+[![Build Status](https://travis-ci.org/jrmypy/csc415-03-spring-2017-jrmypy-hw2.svg?branch=master)](https://travis-ci.org/jrmypy/csc415-03-spring-2017-jrmypy-hw2)
 
 ## Problem statement:
 
