@@ -1,4 +1,0 @@
-/home/jrmy/Desktop/clion-2017.1/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/jrmy/Desktop/hw2-template-master
--- Configuring done
--- Generating done
--- Build files have been written to: /home/jrmy/Desktop/hw2-template-master/cmake-build-debug
