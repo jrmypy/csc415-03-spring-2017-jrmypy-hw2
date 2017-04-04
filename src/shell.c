@@ -136,8 +136,6 @@ int shell(int argc, char *argv[]) {
             exit(EXIT_FAILURE);
         } else if(m_child < 0) {
             perror("error");
-        } else {
-            //pid = waitpid(m_child, &m_status, WUNTRACED);
         }
 
     } else {
@@ -146,5 +144,5 @@ int shell(int argc, char *argv[]) {
   }
 
 
-  return 42;
+  return 1;
 }
